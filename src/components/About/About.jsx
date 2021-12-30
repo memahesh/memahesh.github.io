@@ -6,8 +6,6 @@ import data from '../content.json';
 
 
 const About = (props) => {
-	
-	const profileUrl = 'assets/images/profile.png';
 
 	return (
 		<div id={props.id}>
@@ -16,7 +14,7 @@ const About = (props) => {
 			</Row>
 			<Row className="wrapper">
 				<Col className="center-div" lg={{ size: 4 }}>
-					<img id="profile" src={ profileUrl } alt="Profile" />
+					<img id="profile" src={ data.profileURL } alt="Profile" />
 				</Col>
 				<Col lg={{ size: 8 }}>
 					<h2>Hi there 👋 <br /> I'm { data.name }</h2>

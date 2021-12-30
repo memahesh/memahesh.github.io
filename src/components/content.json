@@ -1,6 +1,7 @@
 {
 	"name": "Mahesh Medam",
 	"about" : "<b>I am </b>a curious individual, a patient listener and a developer by heart.<b> I am all about</b> tackling complex problems, creative thinking, optimistic nature, making best use of the opportunity. Last but not the least, <b>I can build </b> websites, APIs and also possess a certain expertise in machine learning, computer vision and natural language processing. <br /><br /> Check out my work below and if you feel we can have a great time building stuff, send me a <a href='mailto:memahesh219@gmail.com'>message</a>.",
+	"profileURL":"https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/profile.png",
 	"experience" : {
 		"education" : [
 				{
@@ -10,17 +11,17 @@
 					},
 					"duration" : "June 2015 - June 2020",
 					"url" : "https://iitkgp.ac.in",
-					"icon" : "iitkgp"
+					"imgURL" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png"
 				},
 				{
-					"name" : "Interview Bit Academy",
+					"name" : "Scaler Academy",
 					"description" : "Algorithms and Data Structures, System Design, Operating Systems, ReactJS",
 					"links" : {
 					},
 					"duration" : "April 2019 - April 2020",
-					"url" : "https://interviewbit.com/academy",
-					"icon" : "interviewbit"
-				},
+					"url" : "https://www.scaler.com/",
+					"imgURL" : "https://content.interviewbit.com/sr-logo.png"
+				}
 		],
 		"internships" : [
 			{
@@ -31,7 +32,7 @@
 				},
 				"duration" : "May 2019 - June 2019",
 				"url" : "https://instoried.com",
-				"icon" : "instoried"
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png"
 			},
 			{
 				"name" : "Pyramid SoftSol Pvt. Ltd.",
@@ -41,7 +42,7 @@
 				},
 				"duration" : "May 2018 - June 2018",
 				"url" : "https://pyramidinc.com",
-				"icon" : "pss"
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png"
 			},
 			{
 				"name" : "ChemicalShoppe Pvt. Ltd.",
@@ -51,8 +52,8 @@
 				},
 				"duration" : "May 2017 - June 2017",
 				"url" : "https://chemicalshoppe.com",
-				"icon" : "chemicalshoppe"
-			},
+				"imgURL": "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/chemicalshoppe.png"
+			}
 		],
 		"competitions" : [
 			{
@@ -65,7 +66,7 @@
 					"Info" : "https://accentureinnovationchallenge.com/shortListedTeamInfo/team10info.html"
 				},
 				"url" : "https://accentureinnovationchallenge.com",
-				"icon" : "aic"
+				"imgURL" : "aic"
 			},
 			{
 				"name" : "Code.fun.do SHOWCASE 2017, Microsoft [Finalist]",
@@ -75,31 +76,31 @@
 					"Video" : "https://www.youtube.com/watch?v=1ni_LsOl4YE"
 				},
 				"url" : "https://codefundo.io",
-				"icon" : "cfd"
-			},
+				"imgURL" : "cfd"
+			}
 		],
 		"testimonials" : [
 			{
 				"description" : "I had the good fortune of mentoring Mahesh during his internship at Instoried. The thing I liked most about him was the minimal supervision he needed to accomplish his tasks. That, accompanied by his ability to read, comprehend, and quickly implement research papers proved to be very beneficial during our initial R&D stage for understanding Deep Learning based NLP / NLU algorithms. Finally, he has the initial sparks of an entrepreneurial spirit which proves to be very useful, as I found him to be invested in the business / strategy aspect of our company as well. Wishing him unlimited luck for whatever endeavour he chooses to pursue.",
 				"url" : "https://www.linkedin.com/in/sutanshuraj/",
-				"icon" : "instoried",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png",
 				"person": "Sutanshu Raj",
 				"designation": "Cofounder & CTO, Instoried"
 			},
 			{
 				"description" : "Mahesh demonstrated excellent ML/AI capabilities in building chatbot framework and SSD models in minimal time. He will be a recommended for any ML projects and Job opportunities.",
 				"url" : "https://www.linkedin.com/in/suryanersu/",
-				"icon" : "pss",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png",
 				"person": "Surya Pavan Nersu",
 				"designation": "Data Scientist, Infoshare Systems Inc.,"
-			},
+			}
 		],
 		"skills": {
 			"Programming Languages" : ["Python", "Java"],
 			"Web skills" : ["Flask", "ReactJS", "SQLAlchemy", "Selenium", "jQuery", "Puppeteer", "Bootstrap", "SQL", "JWT"],
 			"AI skills" : ["Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "NLTK", "spacy", "Tensorflow", "Pytorch", "fastai", "rasa.ai"],
 			"Coursework" : ["Deep Learning", "Machine Learning", "Natural Language Processing (NLP)", "Programming & Data Structures", "CNN", "RNN"]
-		},
+		}
 	},
 	"contact": {
 		"description" : "I am always looking out for interesting freelance work. If you like my portfolio, get in touch with me at :",

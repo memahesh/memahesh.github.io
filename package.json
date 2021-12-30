@@ -12,38 +12,17 @@
   "license": "MIT",
   "dependencies": {
     "assets": "^3.0.1",
-    "bootstrap": "^4.4.1",
-    "browserify": "^16.5.0",
-    "gh-pages": "^2.1.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scroll": "^1.7.14",
-    "react-slick": "^0.25.2",
-    "reactstrap": "^8.2.0",
+    "bootstrap": "^5.1.3",
+    "browserify": "^17.0.0",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scroll": "^1.8.4",
+    "react-slick": "^0.28.1",
+    "reactstrap": "^9.0.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "babel-preset-nano-react-app": "^0.1.0",
-    "parcel-bundler": "^1.12.4"
-  },
-  "babel": {
-    "presets": [
-      "nano-react-app"
-    ],
-    "plugins": [
-      [
-        "@babel/plugin-proposal-class-properties",
-        {
-          "loose": true
-        }
-      ],
-      [
-        "@babel/plugin-transform-react-jsx",
-        {
-          "pragmaFrag": "React.Fragment"
-        }
-      ]
-    ]
+    "parcel-bundler": "^1.12.5"
   }
 }
