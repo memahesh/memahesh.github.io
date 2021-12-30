@@ -8,17 +8,15 @@ const Project = (props) => {
 
 	const data = props.data;
 
-	const imgUrl = 'assets/images/'+data.icon+'.png';
-
 	return (
 		<Row id={ props.id } className="small-wrapper">
 			<Col md={{ size: 3 }} className="center-div" >
 				<a href={ data.url } target="_blank">
-					<img src={ imgUrl } alt={ data.icon } className="logo-img" />
+					<img src={ data.imgURL } alt={ data.name } className="logo-img" />
 				</a>
 			</Col>
 			<Col md={{ size: 9 }}>
-				<h3>{ data.name }</h3>
+				<h5>{ data.name }</h5>
 				<span className="text-muted">
 					{ data.duration }
 				</span>

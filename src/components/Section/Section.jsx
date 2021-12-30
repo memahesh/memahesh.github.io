@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Project from '../Project/Project.jsx';
 import './Section.css';
 import '../common.css';
+import PHeading from '../PHeading/PHeading.jsx';
 
 
 
@@ -13,7 +14,7 @@ const Section = (props) => {
 	return (
 		<Row className="wrapper" id={ props.id }>
 			<Col lg={{ size: 3 }}>
-				<h2>{ props.section }</h2>
+				<PHeading heading={props.section} level={3} />
 			</Col>
 			<Col lg={{ size: 9 }}>
 

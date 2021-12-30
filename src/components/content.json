@@ -1,6 +1,8 @@
 {
 	"name": "Mahesh Medam",
 	"about" : "<b>I am </b>a curious individual, a patient listener and a developer by heart.<b> I am all about</b> tackling complex problems, creative thinking, optimistic nature, making best use of the opportunity. Last but not the least, <b>I can build </b> websites, APIs and also possess a certain expertise in machine learning, computer vision and natural language processing. <br /><br /> Check out my work below and if you feel we can have a great time building stuff, send me a <a href='mailto:memahesh219@gmail.com'>message</a>.",
+	"profileURL":"https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/profile.png",
+	"resumeURL":"https://drive.google.com/file/d/1chHzWcyUW5wjqwuBPTOHEY6FtnrK0rna/view?usp=sharing",
 	"experience" : {
 		"education" : [
 				{
@@ -10,62 +12,56 @@
 					},
 					"duration" : "June 2015 - June 2020",
 					"url" : "https://iitkgp.ac.in",
-					"icon" : "iitkgp"
+					"imgURL" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png"
 				},
 				{
-					"name" : "Interview Bit Academy",
+					"name" : "Scaler Academy",
 					"description" : "Algorithms and Data Structures, System Design, Operating Systems, ReactJS",
 					"links" : {
 					},
 					"duration" : "April 2019 - April 2020",
-					"url" : "https://interviewbit.com/academy",
-					"icon" : "interviewbit"
-				},
+					"url" : "https://www.scaler.com/",
+					"imgURL" : "https://content.interviewbit.com/sr-logo.png"
+				}
 		],
-		"internships" : [
+		"work" : [
 			{
 				"name" : "Instoried Research Labs Pvt. Ltd.",
 				"description" : "Implemented ULMFiT on a custom dataset achieving 42.3 perplexity in language modelling and 93.3% accuracy in sentiment analysis. Conceptualized and devised a novel pipeline for creation of embeddings from any labelled text dataset and implemented it for emotions. Created a simple rule-based engine for emotional classification utilizing emotional embeddings to achieve an accuracy of 75.7%. Devised a custom method to improve variety and relevance of recommendations for alternative words in context and word level",
 				"links" : {
-					"Certificate" : "https://drive.google.com/file/d/0B7OzysXU3RebUDNiZko5UE9UTzkwS1lTVlZBbFZBUmE0VjVv/view?usp=sharing"
 				},
 				"duration" : "May 2019 - June 2019",
 				"url" : "https://instoried.com",
-				"icon" : "instoried"
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png"
 			},
 			{
 				"name" : "Pyramid SoftSol Pvt. Ltd.",
 				"description" : "Worked with team on design, development and integration of real-time video analytic solution for tracking patient's medicine usage. Applied Transfer Learning on ImageNet pre-trained SSD model built on Inception network and mAP@0.5IoU of 90.7% was achieved. Developed a Healthcare AI virtual assistant which can book appointments, take blood pressure and diabetic readings leveraging RASA.ai. Solely designed the conversation flow diagram and added custom Actions by accessing database to generate personalized responses.",
 				"links" : {
-					"Certificate" : "https://drive.google.com/file/d/1SN3adqVTmWhA0Qhp7BoCmU_OeYXDUH75/view?usp=sharing"
 				},
 				"duration" : "May 2018 - June 2018",
 				"url" : "https://pyramidinc.com",
-				"icon" : "pss"
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png"
 			},
 			{
 				"name" : "ChemicalShoppe Pvt. Ltd.",
 				"description" : "Led the team on design and development of the ecommerce platform and created custom scrapers for efficient cataloging of products. Revamped the Invoicing and Pricing mechanism after the GST change took place and also incorporated Feedback feature in CRM Portal.",
 				"links" : {
-					"Certificate" : "https://drive.google.com/file/d/0B7OzysXU3RebU2MxSE1MUHE4RFU/view?usp=sharing"
 				},
 				"duration" : "May 2017 - June 2017",
 				"url" : "https://chemicalshoppe.com",
-				"icon" : "chemicalshoppe"
+				"imgURL": "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/chemicalshoppe.png"
 			},
-		],
-		"competitions" : [
 			{
 				"name" : "Accenture Innovation Challege 2018 [Finalist]",
 				"duration" : "Dec 2018 - Jan 2018",
 				"description" : "Developed a chrome extension that analyzes upto 20 pages of customer reviews of smartphones on Flipkart and Amazon websites. Designed API endpoints for rendering scores and authorisation and deployed with JSON Web Token token-based authentication. Implemented an automated pipeline for reviews scraping utilizing Puppeteer; then generate factor-wise scores from pickled Naive Bayes.",
 				"links" : {
-					"Certificate" : "https://xyz.com",
 					"Website" : "https://accentureinnovationchallenge.com/shortListedEntries/teaminitial.html",
 					"Info" : "https://accentureinnovationchallenge.com/shortListedTeamInfo/team10info.html"
 				},
 				"url" : "https://accentureinnovationchallenge.com",
-				"icon" : "aic"
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/accenture.PNG"
 			},
 			{
 				"name" : "Code.fun.do SHOWCASE 2017, Microsoft [Finalist]",
@@ -75,31 +71,31 @@
 					"Video" : "https://www.youtube.com/watch?v=1ni_LsOl4YE"
 				},
 				"url" : "https://codefundo.io",
-				"icon" : "cfd"
-			},
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/microsoft.png"
+			}
 		],
 		"testimonials" : [
 			{
 				"description" : "I had the good fortune of mentoring Mahesh during his internship at Instoried. The thing I liked most about him was the minimal supervision he needed to accomplish his tasks. That, accompanied by his ability to read, comprehend, and quickly implement research papers proved to be very beneficial during our initial R&D stage for understanding Deep Learning based NLP / NLU algorithms. Finally, he has the initial sparks of an entrepreneurial spirit which proves to be very useful, as I found him to be invested in the business / strategy aspect of our company as well. Wishing him unlimited luck for whatever endeavour he chooses to pursue.",
 				"url" : "https://www.linkedin.com/in/sutanshuraj/",
-				"icon" : "instoried",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png",
 				"person": "Sutanshu Raj",
 				"designation": "Cofounder & CTO, Instoried"
 			},
 			{
 				"description" : "Mahesh demonstrated excellent ML/AI capabilities in building chatbot framework and SSD models in minimal time. He will be a recommended for any ML projects and Job opportunities.",
 				"url" : "https://www.linkedin.com/in/suryanersu/",
-				"icon" : "pss",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png",
 				"person": "Surya Pavan Nersu",
 				"designation": "Data Scientist, Infoshare Systems Inc.,"
-			},
+			}
 		],
 		"skills": {
 			"Programming Languages" : ["Python", "Java"],
-			"Web skills" : ["Flask", "ReactJS", "SQLAlchemy", "Selenium", "jQuery", "Puppeteer", "Bootstrap", "SQL", "JWT"],
+			"Dev skills" : ["Spring Boot", "Apache Kafka", "Flask", "ReactJS", "SQLAlchemy", "Selenium", "jQuery", "Puppeteer", "Bootstrap", "SQL", "JWT"],
 			"AI skills" : ["Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "NLTK", "spacy", "Tensorflow", "Pytorch", "fastai", "rasa.ai"],
 			"Coursework" : ["Deep Learning", "Machine Learning", "Natural Language Processing (NLP)", "Programming & Data Structures", "CNN", "RNN"]
-		},
+		}
 	},
 	"contact": {
 		"description" : "I am always looking out for interesting freelance work. If you like my portfolio, get in touch with me at :",

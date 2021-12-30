@@ -8,8 +8,6 @@ const Testimonial = (props) => {
 
 	const data = props.data;
 
-	const imgUrl = 'assets/images/'+data.icon+'.png';
-
 	return (
 		<Row id={ props.id } className="small-wrapper">
 			<Col md={{ size: 12 }}>
@@ -19,7 +17,7 @@ const Testimonial = (props) => {
 			</Col>
 			<Col md={{ size: 12 }}>
 				<a href={ data.url } target="_blank" className="signature">
-					<img src={ imgUrl } alt={ data.icon } className="img-icon"/>
+					<img src={ data.imgURL } alt={ data.person } className="img-icon"/>
 					{data.person} <br /> {data.designation}
 				</a>
 			</Col>

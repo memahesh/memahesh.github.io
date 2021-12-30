@@ -25,7 +25,7 @@ const Contact = (props) => {
 				{Object.keys(contact.links).map(ele =>{
 					const eleClass = "fa fa-2x fa-"+ele;
 					return (<span key={eleClass}>
-								<a href={contact.links[ele]} target="_blank" style={{paddingRight:'10px'}}> <i className={eleClass}></i> </a> 
+								<a href={contact.links[ele]} target="_blank" style={{paddingRight:'10px', textDecoration:"none"}}> <i className={eleClass}></i> </a> 
 							</span>);
 				})}
 				</p>

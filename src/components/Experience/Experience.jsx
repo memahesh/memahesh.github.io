@@ -1,48 +1,39 @@
 import React, {useState} from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import Section from '../Section/Section.jsx';
 import TextSection from '../TextSection/TextSection.jsx';
 import SliderSection from '../SliderSection/SliderSection.jsx';
-import './Experience.css';
+import './Experience';
 import '../common.css';
 import data from '../content.json';
+import PHeading from '../PHeading/PHeading.jsx';
 
 const Experience = (props) => {
 	
-	const internships = data.experience.internships;
-	const projects = data.experience.projects;
+	const work = data.experience.work;
 	const education = data.experience.education;
-	const competitions = data.experience.competitions;
 	const testimonials = data.experience.testimonials;
 	const skills = data.experience.skills;
 
 	return (
 		<div id={props.id}>
-			<Row>
-				<h1>Experience</h1>
-			</Row>
+			<PHeading heading="Experience" level={1} />
 			<Section
-				id = "education"
+				id = "worksSection"
+				section="Work"
+				data = {work}
+			/>
+			<Section
+				id = "educationSection"
 				section="Education"
 				data = {education}
 			/>
-			<Section
-				id = "internships"
-				section="Internships"
-				data = {internships}
-			/>
-			<Section
-				id = "competitions"
-				section="Competitions"
-				data = {competitions}
-			/>
 			<TextSection
-				id = "skills"
+				id = "skillSection"
 				section="Skills"
 				data = {skills}
 			/>
 			<SliderSection
-				id = "testimonial"
+				id = "testimonialSection"
 				section="Testimonial"
 				data={testimonials}
 			/>

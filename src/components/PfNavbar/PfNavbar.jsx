@@ -7,15 +7,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  TabContent,
 } from 'reactstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './PfNavbar.css';
-
+import data from "../content.json";
 
 const PfNavbar = (props) => {
 	
@@ -50,8 +46,44 @@ const PfNavbar = (props) => {
               	duration={500} 
               	offset={-100}
               	className="nav-link"
-              	to="experienceSection"
-              >experience
+              	to="worksSection"
+              >works
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link
+              	activeClass="active"
+              	spy={true}
+              	smooth={true}
+              	duration={500} 
+              	offset={-100}
+              	className="nav-link"
+              	to="educationSection"
+              >education
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link
+              	activeClass="active"
+              	spy={true}
+              	smooth={true}
+              	duration={500} 
+              	offset={-100}
+              	className="nav-link"
+              	to="skillSection"
+              >skills
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link
+              	activeClass="active"
+              	spy={true}
+              	smooth={true}
+              	duration={500} 
+              	offset={-100}
+              	className="nav-link"
+              	to="testimonialSection"
+              >testimonials
               </Link>
             </NavItem>
             <NavItem>
@@ -67,7 +99,7 @@ const PfNavbar = (props) => {
               </Link>
             </NavItem>
             <NavItem>
-              <NavLink className="resume" href="https://drive.google.com/file/d/1chHzWcyUW5wjqwuBPTOHEY6FtnrK0rna/view?usp=sharing" target="_blank">resume</NavLink>
+              <NavLink className="resume" href={data.resumeURL} target="_blank">resume</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
