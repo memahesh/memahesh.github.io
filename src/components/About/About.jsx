@@ -3,15 +3,14 @@ import { Container, Row, Col } from 'reactstrap';
 import '../common.css';
 import './About.css';
 import data from '../content.json';
+import PHeading from '../PHeading/PHeading';
 
 
 const About = (props) => {
 
 	return (
 		<div id={props.id}>
-			<Row>
-				<h1>About</h1>
-			</Row>
+			<PHeading heading="About" level={1} />
 			<Row className="wrapper">
 				<Col className="center-div" lg={{ size: 4 }}>
 					<img id="profile" src={ data.profileURL } alt="Profile" />

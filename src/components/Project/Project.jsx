@@ -16,7 +16,7 @@ const Project = (props) => {
 				</a>
 			</Col>
 			<Col md={{ size: 9 }}>
-				<h3>{ data.name }</h3>
+				<h5>{ data.name }</h5>
 				<span className="text-muted">
 					{ data.duration }
 				</span>
