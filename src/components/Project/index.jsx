@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import './Project.css';
-import '../common.css';
+import './style.sass';
+import '../common.sass';
 
 const Project = (props) => {
 	

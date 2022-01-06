@@ -5,71 +5,97 @@
 	"resumeURL":"https://drive.google.com/file/d/1chHzWcyUW5wjqwuBPTOHEY6FtnrK0rna/view?usp=sharing",
 	"experience" : {
 		"education" : [
-				{
-					"name" : "Indian Institute of Technology, Kharagpur",
-					"description" : "Dual Degree, Department of Aerospace Engineering",
-					"links" : {
-					},
-					"duration" : "June 2015 - June 2020",
-					"url" : "https://iitkgp.ac.in",
-					"imgURL" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png"
-				},
-				{
-					"name" : "Scaler Academy",
-					"description" : "Algorithms and Data Structures, System Design, Operating Systems, ReactJS",
-					"links" : {
-					},
-					"duration" : "April 2019 - April 2020",
-					"url" : "https://www.scaler.com/",
-					"imgURL" : "https://content.interviewbit.com/sr-logo.png"
-				}
+				
+				
 		],
-		"work" : [
+		"journey" : [
 			{
-				"name" : "Instoried Research Labs Pvt. Ltd.",
-				"description" : "Implemented ULMFiT on a custom dataset achieving 42.3 perplexity in language modelling and 93.3% accuracy in sentiment analysis. Conceptualized and devised a novel pipeline for creation of embeddings from any labelled text dataset and implemented it for emotions. Created a simple rule-based engine for emotional classification utilizing emotional embeddings to achieve an accuracy of 75.7%. Devised a custom method to improve variety and relevance of recommendations for alternative words in context and word level",
+				"name" : "Ola Electric Mobility Pvt. Ltd.",
+				"designation":"Software Development Engineer",
+				"description" : "Payment and Refund System, Hazelcast Cache Locking, Spring Boot, Apache Kafka, PayU Payment Gateway Integration, Ola Money Wallet Integration, CRON, Webhooks",
 				"links" : {
 				},
+				"type" : "work",
+				"duration" : "July 2020 - Jan 2021",
+				"url" : "https://olaelectric.com",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/olaelectric.png"
+			},
+			{
+				"name" : "Scaler Academy",
+				"designation" : "Student",
+				"description" : "Algorithms and Data Structures, System Design, Operating Systems, ReactJS",
+				"links" : {
+				},
+				"type" : "education",
+				"duration" : "April 2019 - April 2020",
+				"url" : "https://www.scaler.com/",
+				"imgURL" : "https://content.interviewbit.com/sr-logo.png"
+			},
+			{
+				"name" : "Indian Institute of Technology, Kharagpur",
+				"designation": "Student",
+				"description" : "Dual Degree, Department of Aerospace Engineering",
+				"links" : {
+				},
+				"type" : "education",
+				"duration" : "June 2015 - June 2020",
+				"url" : "https://iitkgp.ac.in",
+				"imgURL" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png"
+			},
+			{
+				"name" : "Instoried Research Labs Pvt. Ltd.",
+				"designation":"Deep Learning Intern",
+				"description" : "DeepLearning, RNN, ULMFiT, Sentiment Analysis, Emotion Classification, Language Modeling, Worked on improving Word Recommendation, PyTorch",
+				"links" : {
+				},
+				"type" : "work",
 				"duration" : "May 2019 - June 2019",
 				"url" : "https://instoried.com",
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png"
 			},
 			{
+				"name" : "Accenture Innovation Challege 2018 [Finalist]",
+				"duration" : "Sep 2018 - Jan 2019",
+				"description" : "Developed a chrome extension that analyzes upto 20 pages of customer reviews of smartphones on Flipkart and Amazon websites. <br /> REST API, JSON Web Token Authentication, Puppeteer, NodeJs, Naive Bayes, Factor-wise Sentiment Analysis",
+				"links" : {
+					"Website" : "https://accentureinnovationchallenge.com/shortListedEntries/teaminitial.html",
+					"Info" : "https://accentureinnovationchallenge.com/shortListedTeamInfo/team10info.html"
+				},
+				"type": "competition",
+				"url" : "https://accentureinnovationchallenge.com",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/accenture.PNG"
+			},
+			{
 				"name" : "Pyramid SoftSol Pvt. Ltd.",
-				"description" : "Worked with team on design, development and integration of real-time video analytic solution for tracking patient's medicine usage. Applied Transfer Learning on ImageNet pre-trained SSD model built on Inception network and mAP@0.5IoU of 90.7% was achieved. Developed a Healthcare AI virtual assistant which can book appointments, take blood pressure and diabetic readings leveraging RASA.ai. Solely designed the conversation flow diagram and added custom Actions by accessing database to generate personalized responses.",
+				"designation":"Machine Learning Intern",
+				"description" : "Worked with team on design, development and integration of real-time video analytic solution for tracking patient's medicine usage. <br /> Developed a Healthcare AI virtual assistant which can book appointments, take blood pressure and diabetic readings leveraging RASA.ai. <br /> Computer Vision, Transfer Learning, Object Detection, Rasa.ai, Chatbot System, Django, Tensorflow",
 				"links" : {
 				},
+				"type" : "work",
 				"duration" : "May 2018 - June 2018",
 				"url" : "https://pyramidinc.com",
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png"
 			},
 			{
 				"name" : "ChemicalShoppe Pvt. Ltd.",
-				"description" : "Led the team on design and development of the ecommerce platform and created custom scrapers for efficient cataloging of products. Revamped the Invoicing and Pricing mechanism after the GST change took place and also incorporated Feedback feature in CRM Portal.",
+				"designation": "Web Developer Intern",
+				"description" : "Worked on CRM Platform, Ecommerce Website and implemented custom scrapers for cataloguing purposes.",
 				"links" : {
 				},
+				"type": "work",
 				"duration" : "May 2017 - June 2017",
 				"url" : "https://chemicalshoppe.com",
 				"imgURL": "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/chemicalshoppe.png"
 			},
 			{
-				"name" : "Accenture Innovation Challege 2018 [Finalist]",
-				"duration" : "Dec 2018 - Jan 2018",
-				"description" : "Developed a chrome extension that analyzes upto 20 pages of customer reviews of smartphones on Flipkart and Amazon websites. Designed API endpoints for rendering scores and authorisation and deployed with JSON Web Token token-based authentication. Implemented an automated pipeline for reviews scraping utilizing Puppeteer; then generate factor-wise scores from pickled Naive Bayes.",
-				"links" : {
-					"Website" : "https://accentureinnovationchallenge.com/shortListedEntries/teaminitial.html",
-					"Info" : "https://accentureinnovationchallenge.com/shortListedTeamInfo/team10info.html"
-				},
-				"url" : "https://accentureinnovationchallenge.com",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/accenture.PNG"
-			},
-			{
 				"name" : "Code.fun.do SHOWCASE 2017, Microsoft [Finalist]",
 				"description" : "Developed a Messenger chatbot to help commuters get information regarding trains like live status, confirmation status and route. Consumed LUIS.ai api for Named Entity Recognition and Intent Classification and scraped railwayapi.com for railway information. Designed and created the chatbot utilizing Bootstrap and AJAX for UI and PHP for backend to consume the response of LUIS.ai API.",
+				"duration":"Jan 2017",
 				"links" : {
 					"Certificate" : "https://drive.google.com/file/d/0B7OzysXU3RebbXZ1a2tDWjFqc1U/view?usp=sharing",
 					"Video" : "https://www.youtube.com/watch?v=1ni_LsOl4YE"
 				},
+				"type": "competition",
 				"url" : "https://codefundo.io",
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/microsoft.png"
 			}
