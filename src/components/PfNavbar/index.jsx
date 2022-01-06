@@ -10,7 +10,7 @@ import {
   TabContent,
 } from 'reactstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
-import './PfNavbar.css';
+import './style.sass';
 import data from "../content.json";
 
 const PfNavbar = (props) => {
@@ -22,7 +22,15 @@ const PfNavbar = (props) => {
 	return (
 		<div>
 			<Navbar className="container-sm" color="white" light expand="md" fixed="top">
-        <NavbarBrand href="/">M<b>M</b></NavbarBrand>
+        <NavbarBrand href="/">
+          {data.name.split(" ").filter(x=>x!=="").map((word, idx) => {
+            if(idx%2==0){
+              return <span key={idx}>{word[0]}</span>;
+            }else{
+              return <b key={idx}>{word[0]}</b>;
+            }
+          })}
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -46,20 +54,8 @@ const PfNavbar = (props) => {
               	duration={500} 
               	offset={-100}
               	className="nav-link"
-              	to="worksSection"
-              >works
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link
-              	activeClass="active"
-              	spy={true}
-              	smooth={true}
-              	duration={500} 
-              	offset={-100}
-              	className="nav-link"
-              	to="educationSection"
-              >education
+              	to="journeySection"
+              >journey
               </Link>
             </NavItem>
             <NavItem>

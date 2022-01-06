@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import '../common.css';
-import './PfFooter.css';
+import '../common.sass';
+import './style.sass';
 import data from '../content.json';
 
 const PfFooter = (props) => {
@@ -10,8 +10,8 @@ const PfFooter = (props) => {
 
 	return (
 		<div id={props.id} style={{textAlign: 'right', padding:'40px'}}>
-			Build your own website <a href="https://github.com/memahesh.github.io" target="_blank"> here </a>.
-			Built using React by <a href="https://github.com/memahesh.github.io" target="_blank"> Mahesh Medam </a>
+			Build your own website <a href="https://github.com/memahesh/myfolio" target="_blank"> here </a>.
+			Built using React by <a href="https://www.linkedin.com/in/mahesh-medam-086b27102" target="_blank"> Mahesh Medam </a>
 		</div>
 	);
 }

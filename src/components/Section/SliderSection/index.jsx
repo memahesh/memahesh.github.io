@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import Testimonial from '../Testimonial/Testimonial.jsx';
+import Testimonial from '../../Testimonial';
 import Slider from 'react-slick';
-import '../common.css';
-import './SliderSection.css';
-import data from '../content.json';
+import '../../common.sass';
+import './style.sass';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import PHeading from '../../PHeading';
 
-const SliderSection = (props) => {
+const SliderSection = ({items, sectionTitle}) => {
 	
-	const section = props.data;
 	var settings = {
       dots: true,
       infinite: true,
@@ -22,14 +21,14 @@ const SliderSection = (props) => {
     };
 
 	return (
-		<Row id={props.id} className="wrapper">
+		<Row className="wrapper">
 			<Col lg={{ size: 3 }}>
-				<h2>{ props.section }</h2>
+				<PHeading heading={sectionTitle} level={1} />
 			</Col>
 			<Col lg={{ size: 9 }}>
 				<Slider {...settings}>
 			        {
-						section.map((item, i) =>{
+						items.map((item, i) =>{
 							return <Testimonial 
 										key = {i}
 										id="1"

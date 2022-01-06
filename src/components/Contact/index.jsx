@@ -1,17 +1,18 @@
 import React, {useState} from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import '../common.css';
-import './Contact.css';
+import '../common.sass';
+import './style.sass';
 import data from '../content.json';
+import PHeading from '../PHeading';
 
-const Contact = (props) => {
+const Contact = ({sectionTitle}) => {
 	
 	const contact = data.contact;
 
 	return (
-		<div id={props.id} className="footer">
+		<div className="footer">
 			<Row>
-				<h1>Contact</h1>
+				<PHeading level={1} heading={sectionTitle} />
 			</Row>
 			<Row className="description">
 				<p>Feel free to reach out for collaborations or just a friendly hello 👋</p>

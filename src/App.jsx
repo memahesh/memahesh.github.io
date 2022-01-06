@@ -1,24 +1,32 @@
 import React, {useState} from 'react';
 import { Container } from 'reactstrap';
-import PfNavbar from './components/PfNavbar/PfNavbar.jsx';
-import About from './components/About/About.jsx';
-import Experience from './components/Experience/Experience.jsx';
-import Contact from './components/Contact/Contact.jsx';
-import PfFooter from './components/PfFooter/PfFooter.jsx';
+import PfNavbar from './components/PfNavbar';
+import About from './components/About';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import PfFooter from './components/PfFooter';
+import SectionLayout from './components/layout/SectionLayout';
 
 
 const App = () => {
 
 	return (
-		<Container className="App themed-container" fluid="sm">
-			<PfNavbar />
-			<About 
-				id="aboutSection"/>
-			<Experience 
-				id="experienceSection"/>
-			<Contact 
-				id="contactSection"/>
-			<PfFooter />
+		<Container className="App themed-container" fluid="md">
+			<SectionLayout sectionName={""}>
+				<PfNavbar />
+			</SectionLayout>
+			<SectionLayout sectionName={"aboutSection"}>
+				<About sectionTitle={"About"} />
+			</SectionLayout>
+			<SectionLayout sectionName={"experienceSection"}>
+				<Experience />
+			</SectionLayout>
+			<SectionLayout sectionName={"contactSection"}>
+				<Contact sectionTitle={"Contact"} />
+			</SectionLayout>
+			<SectionLayout>
+				<PfFooter />
+			</SectionLayout>
 		</Container>
 	);
 }

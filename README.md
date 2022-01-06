@@ -33,3 +33,17 @@ The Babel preset [babel-preset-nano-react-app](https://github.com/adrianmcli/bab
 
 The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
 
+
+
+## Todos
+
+ - [ ] Add Projects Section
+ - [x] Change Image Styling ###Done
+ - [x] Adding Timeline as Journey ###Done
+ - [x] Fixing Footer URLs ###Done
+ - [x] Fixing Contact spacing ###Done
+ - [x] Fixing Testimonial ###Done
+ - [ ] Adding Blog button and point to medium ###To Be Done Later
+ - [ ] Add more testimonials
+ - [ ] Add Loader
+ - [ ] Update README properly
