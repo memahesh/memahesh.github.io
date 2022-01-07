@@ -21,7 +21,7 @@ const SliderSection = ({items, sectionTitle}) => {
     };
 
 	return (
-		<Row className="wrapper">
+		<Row>
 			<Col lg={{ size: 3 }}>
 				<PHeading heading={sectionTitle} level={1} />
 			</Col>

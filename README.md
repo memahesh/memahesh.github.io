@@ -47,3 +47,4 @@ The Babel configuration lives inside `package.json` and will override an externa
  - [ ] Add more testimonials
  - [ ] Add Loader
  - [ ] Update README properly
+ - [ ] Enabling Media Queries and adjust all elements accordingly

@@ -8,24 +8,20 @@ const Testimonial = (props) => {
 
 	const data = props.data;
 
+	const maxTestimonialLength = 400;
+
 	return (
 		<Row id={ props.id } className="small-wrapper">
-			<Col md={{ size: 12 }} style={{height:"200px"}}>
-				<i className="fa fa-quote-left fa-2x"></i>
-				<p style={{padding:"5px 20px", fontStyle:"italic"}}>{ data.description }</p>
-				<i className="fa fa-quote-right fa-2x"></i>
-			</Col>
-			<Col md={{ size: 12 }}>
-				<Row>
-					<Col xs={{offset:5, size:1}} >
-						<a href={ data.url } target="_blank" className="signature">
-							<img src={ data.imgURL } alt={ data.person } className="img-icon"/>
-						</a>
-					</Col>
-					<Col xs={{size:6}} style={{paddingLeft:"30px"}}>
-						<p>{data.person}<br />{data.designation}</p>
-					</Col>
-				</Row>
+			<Col md={{ size: 12 }} className={"vertical-center-container"} >
+				<div className={"vertical-center-content"}>
+				  	<i className="fa fa-quote-left fa-2x p-2"></i>
+					<p style={{padding:"5px 20px", fontStyle:"italic"}}>
+						{data.description.substring(0, maxTestimonialLength)}{data.description.length>maxTestimonialLength?"...":""}
+						<br />
+						- {data.person}, {data.designation}
+					</p>
+					<i className="fa fa-quote-right fa-2x p-2"></i>
+				</div>
 			</Col>
 		</Row>
 	);

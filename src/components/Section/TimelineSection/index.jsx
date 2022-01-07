@@ -71,7 +71,7 @@ const CustomCardVerticalTimelineElement = ({elementData, cardStyleProps}) => {
 					<div>
 						<PHeading heading={elementData.designation} level={4} />
 						<a href={elementData.url} className='no-style-link' target={"_blank"}>{elementData.name}</a>
-						<p dangerouslySetInnerHTML={{__html:elementData.description}}></p>
+						<p style={{fontWeight:"initial"}} dangerouslySetInnerHTML={{__html:elementData.description}}></p>
 					</div>
 				</Row>
 			</VerticalTimelineElement>
