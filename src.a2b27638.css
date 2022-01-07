@@ -112,7 +112,7 @@ p {
 }
 
 .slick-dots {
-  bottom: 25px;
+  bottom: 25px !important;
 }
 /* Slider */
 .slick-slider
