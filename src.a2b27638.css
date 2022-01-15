@@ -439,6 +439,14 @@ p {
     color: black;
 }
 
+.timeline-content-right {
+  text-align: none;
+}
+
+.timeline-content-left {
+  text-align: none;
+}
+
 .timeline-element-image {
   height: 40px;
   margin-bottom: 10px;
@@ -481,6 +489,14 @@ p {
   .vertical-timeline.vertical-timeline--two-columns:before {
     left: 50%;
     margin-left: -2px;
+  }
+
+  .timeline-content-right {
+    text-align: right;
+  }
+
+  .timeline-content-left {
+    text-align: left;
   }
 }
 .vertical-timeline-element {
