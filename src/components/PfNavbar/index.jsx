@@ -46,7 +46,8 @@ const PfNavbar = (props) => {
               >about
               </Link>
             </NavItem>
-            <NavItem>
+            {
+              data.experience.journey && <NavItem>
               <Link
               	activeClass="active"
               	spy={true}
@@ -58,7 +59,9 @@ const PfNavbar = (props) => {
               >journey
               </Link>
             </NavItem>
-            <NavItem>
+            }
+            {
+              data?.experience?.skills && <NavItem>
               <Link
               	activeClass="active"
               	spy={true}
@@ -70,7 +73,9 @@ const PfNavbar = (props) => {
               >skills
               </Link>
             </NavItem>
-            <NavItem>
+            }
+            {
+              data?.experience?.testimonials && <NavItem>
               <Link
               	activeClass="active"
               	spy={true}
@@ -82,6 +87,7 @@ const PfNavbar = (props) => {
               >testimonials
               </Link>
             </NavItem>
+            }
             <NavItem>
               <Link
               	activeClass="active"

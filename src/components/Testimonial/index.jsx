@@ -15,11 +15,13 @@ const Testimonial = (props) => {
 			<Col md={{ size: 12 }} className={"vertical-center-container"} >
 				<div className={"vertical-center-content"}>
 				  	<i className="fa fa-quote-left fa-2x p-2"></i>
-					<p style={{padding:"5px 20px", fontStyle:"italic"}}>
+					<div style={{padding:"5px 20px", fontStyle:"italic"}}>
 						{data.description.substring(0, maxTestimonialLength)}{data.description.length>maxTestimonialLength?"...":""}
 						<br />
-						- {data.person}, {data.designation}
-					</p>
+						<div style={{textAlign:"right"}}>
+						- <a href={data.url} target={"_blank"} style={{textDecoration:"none"}}>{data.person}, {data.designation}</a>
+						</div>
+					</div>
 					<i className="fa fa-quote-right fa-2x p-2"></i>
 				</div>
 			</Col>

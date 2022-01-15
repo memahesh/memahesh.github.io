@@ -12,9 +12,7 @@ const App = () => {
 
 	return (
 		<Container className="App themed-container" fluid="md">
-			<SectionLayout sectionName={""}>
-				<PfNavbar />
-			</SectionLayout>
+			<PfNavbar />
 			<SectionLayout sectionName={"aboutSection"}>
 				<About sectionTitle={"About"} />
 			</SectionLayout>

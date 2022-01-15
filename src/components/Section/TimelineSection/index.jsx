@@ -9,7 +9,6 @@ import {MdDisabledByDefault, MdFlag, MdOutlineWork, MdSchool} from "react-icons/
 import VerticalTimeline from 'react-vertical-timeline-component/dist-modules/VerticalTimeline';
 import VerticalTimelineElement from 'react-vertical-timeline-component/dist-modules/VerticalTimelineElement';
 import './style.sass';
-import { DefaultContext } from 'react-icons/lib';
 
 const TimelineSection = ({items, sectionTitle}) => {
 
@@ -23,7 +22,7 @@ const TimelineSection = ({items, sectionTitle}) => {
 				<PHeading heading={sectionTitle} level={1} />
 			</Col>
 			<Col lg={{ size: 12 }}>
-				<VerticalTimeline layout={'1-column-left'}>
+				<VerticalTimeline>
 					{
 						items.map((item, idx) => {
 							return (
@@ -31,6 +30,7 @@ const TimelineSection = ({items, sectionTitle}) => {
 									key={idx}
 									elementData={item}
 									cardStyleProps={getCardStyling(item.type)}
+									alignment={idx%2==0?"right":"left"}
 								/>
 							);
 						})
@@ -55,14 +55,14 @@ const getCardStyling = (cardType) => {
 	}
 }
 
-const CustomCardVerticalTimelineElement = ({elementData, cardStyleProps}) => {
+const CustomCardVerticalTimelineElement = ({elementData, cardStyleProps, alignment}) => {
 
 	return (
 		<VerticalTimelineElement
 				date={elementData.duration}
 				{...cardStyleProps}
 			>
-				<Row>
+				<Row className={'timeline-content-'+alignment}>
 					<div>
 						<a href={elementData.url} target={"_blank"}>
 							<img src={elementData.imgURL} alt={elementData.name} className='timeline-element-image' />
@@ -72,6 +72,13 @@ const CustomCardVerticalTimelineElement = ({elementData, cardStyleProps}) => {
 						<PHeading heading={elementData.designation} level={4} />
 						<a href={elementData.url} className='no-style-link' target={"_blank"}>{elementData.name}</a>
 						<p style={{fontWeight:"initial"}} dangerouslySetInnerHTML={{__html:elementData.description}}></p>
+						<p>
+						{Object.keys(elementData.links).map((ele, idx) =>{
+							return (<span key={idx}>
+										<a href={elementData.links[ele]} target="_blank" style={{paddingRight:'10px', textDecoration:"none"}}> {ele} </a> 
+									</span>);
+						})}
+						</p>
 					</div>
 				</Row>
 			</VerticalTimelineElement>
@@ -79,7 +86,8 @@ const CustomCardVerticalTimelineElement = ({elementData, cardStyleProps}) => {
 }
 
 const WorkCard = () => {
-	const baseColor = "rgb(33, 150, 243)";
+	// Bootstrap Primary Color
+	const baseColor = "#007bff";
 	return {
 		contentStyle: { border: `3px dashed ${baseColor}`, color: '#000' },
 		contentArrowStyle: { borderRight: `7px solid ${baseColor}` },
@@ -89,7 +97,8 @@ const WorkCard = () => {
 }
 
 const EducationCard = () => {
-	const baseColor = "rgb(243, 50, 33)";
+	// Bootstrap Secondary Color
+	const baseColor = "#6c757d";
 	return {
 		contentStyle: { border: `3px dashed ${baseColor}`, color: '#000' },
 		contentArrowStyle: { borderRight: `7px solid ${baseColor}` },
@@ -99,7 +108,8 @@ const EducationCard = () => {
 }
 
 const CompetitionCard = () => {
-	const baseColor = "rgb(243, 150, 33)";
+	// Bootstrap Warning Color
+	const baseColor = "#ffc107";
 	return {
 		contentStyle: { border: `3px dashed ${baseColor}`, color: '#000' },
 		contentArrowStyle: { borderRight: `7px solid ${baseColor}` },
