@@ -1,13 +1,10 @@
 {
 	"name": "Mahesh Medam",
-	"about" : "<b>I am </b>a curious individual, a patient listener and a developer by heart.<b> I am all about</b> tackling complex problems, creative thinking, optimistic nature, making best use of the opportunity. Last but not the least, <b>I can build </b> websites, APIs and also possess a certain expertise in machine learning, computer vision and natural language processing. <br /><br /> Check out my work below and if you feel we can have a great time building stuff, send me a <a href='mailto:memahesh219@gmail.com'>message</a>.",
+	"about" : "<b style='display:inline;'>Mahesh Medam</b> is an Indian Software Developer looking for the next billion-user project!! He develops software that is convenient to use while preserving aesthetics. An ever-consuming passion for building solutions and exploring new things drives him.<br /><br /> He has been working as a full-time software developer since 2020. Even as a student, he took up roles as an intern/freelancer garnering experience in UI/UX, Backend, Machine learning, and Data. He showed the potential to develop novel solutions by performing in various hackathons. In his free time, you can find him playing games, watching anime, and working on passion projects.<br /> <br /> Check out his work below and if you feel you can have a great time building stuff together, contact him <a href='#contactSection' style='text-decoration:none;'>here👇</a>",
 	"profileURL":"https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/profile.png",
 	"resumeURL":"https://drive.google.com/file/d/1chHzWcyUW5wjqwuBPTOHEY6FtnrK0rna/view?usp=sharing",
+	"email":"memahesh219@gmail.com",
 	"experience" : {
-		"education" : [
-				
-				
-		],
 		"journey" : [
 			{
 				"name" : "Ola Electric Mobility Pvt. Ltd.",
@@ -19,6 +16,17 @@
 				"duration" : "July 2020 - Jan 2021",
 				"url" : "https://olaelectric.com",
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/olaelectric.png"
+			},
+			{
+				"name" : "Avenoir",
+				"designation":"Full Stack Developer • Freelance",
+				"description" : "NodeJs, Express, MySQL, React, JWT with Refresh Token, Role-based Authorization, KYC Verification, SMS Verfication, Referral Feature, CoinPayments Payment Gateway, Admin Dashboard Development",
+				"links" : {
+				},
+				"type" : "work",
+				"duration" : "Mar 2020 - June 2020",
+				"url" : "https://www.avenoir.ai",
+				"imgURL" : "https://github.com/memahesh/myfolio/blob/master/assets/images/avenoir.png?raw=true"
 			},
 			{
 				"name" : "Scaler Academy",
@@ -39,7 +47,7 @@
 				},
 				"type" : "education",
 				"duration" : "June 2015 - June 2020",
-				"url" : "https://iitkgp.ac.in",
+				"url" : "http://www.iitkgp.ac.in",
 				"imgURL" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png"
 			},
 			{
@@ -57,12 +65,9 @@
 				"name" : "Accenture Innovation Challege 2018 [Finalist]",
 				"duration" : "Sep 2018 - Jan 2019",
 				"description" : "Developed a chrome extension that analyzes upto 20 pages of customer reviews of smartphones on Flipkart and Amazon websites. <br /> REST API, JSON Web Token Authentication, Puppeteer, NodeJs, Naive Bayes, Factor-wise Sentiment Analysis",
-				"links" : {
-					"Website" : "https://accentureinnovationchallenge.com/shortListedEntries/teaminitial.html",
-					"Info" : "https://accentureinnovationchallenge.com/shortListedTeamInfo/team10info.html"
-				},
+				"links" : {},
 				"type": "competition",
-				"url" : "https://accentureinnovationchallenge.com",
+				"url" : "https://www.accenture.com/us-en/careers/local/accenture-innovation-challenge",
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/accenture.PNG"
 			},
 			{
@@ -96,7 +101,7 @@
 					"Video" : "https://www.youtube.com/watch?v=1ni_LsOl4YE"
 				},
 				"type": "competition",
-				"url" : "https://codefundo.io",
+				"url" : "https://www.microsoft.com/en-in/about/empowering-educators-academia.aspx",
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/microsoft.png"
 			}
 		],
@@ -114,6 +119,13 @@
 				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png",
 				"person": "Surya Pavan Nersu",
 				"designation": "Data Scientist, Infoshare Systems Inc.,"
+			},
+			{
+				"description" : "Mahesh demonstrated excellent skills in Node.Js and React.Js while building a web based dashboard within minimal time. He is recommended for any full stack development projects and Job opportunities.",
+				"url" : "https://www.linkedin.com/in/amlendu-bajpai-02924610a/",
+				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/avenoir.png",
+				"person": "Amlendu Bajpai",
+				"designation": "Co-Founder, Avenoir"
 			}
 		],
 		"skills": {
@@ -124,10 +136,9 @@
 		}
 	},
 	"contact": {
-		"description" : "I am always looking out for interesting freelance work. If you like my portfolio, get in touch with me at :",
+		"description" : "Feel free to reach out for collaborations or just a friendly hello 👋",
 		"links": {
 			"linkedin":"https://www.linkedin.com/in/mahesh-medam-086b27102/",
-			"google":"mailto:memahesh219@gmail.com",
 			"github":"https://github.com/memahesh",
 			"facebook":"https://www.facebook.com/profile.php?id=100009391137929"
 		}

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../common.sass';
 import './style.sass';
-import data from '../content.json';
+import data from '../../content.json';
 import PHeading from '../PHeading';
 
 
@@ -16,7 +16,6 @@ const About = ({id, sectionTitle}) => {
 					<img id="profile" src={ data.profileURL } alt="Profile" />
 				</Col>
 				<Col lg={{ size: 8 }}>
-					<h2>Hi there 👋 <br /> I'm { data.name }</h2>
 					<div dangerouslySetInnerHTML={{ __html: data.about }} />
 				</Col>
 			</Row>

@@ -4,32 +4,32 @@ import TextSection from '../TextSection';
 import SliderSection from '../Section/SliderSection';
 import PortfolioSection from '../Section/PortfolioSection';
 import '../common.sass';
-import data from '../content.json';
-import PHeading from '../PHeading';
+import data from '../../content.json';
 import SectionLayout from '../layout/SectionLayout';
 import TimelineSection from '../Section/TimelineSection';
-import Testimonial from '../Testimonial';
 
 const Experience = (props) => {
-	
-	const education = data.experience.journey;
-	const testimonials = data.experience.testimonials;
-	const skills = data.experience.skills;
 
 	return (
 		<div id={props.id}>
-			<SectionLayout sectionName={"journeySection"}>
-				<TimelineSection items={education} sectionTitle={"Journey"}/>
+			{
+				data?.experience?.journey && <SectionLayout sectionName={"journeySection"}>
+				<TimelineSection items={data?.experience?.journey} sectionTitle={"Journey"}/>
 			</SectionLayout>
-			<SectionLayout sectionName={"skillSection"}>
-				<TextSection items={skills} sectionTitle={"Skills"}/>
+			}
+			{
+				data?.experience?.skills && <SectionLayout sectionName={"skillSection"}>
+				<TextSection items={data?.experience?.skills} sectionTitle={"Skills"}/>
 			</SectionLayout>
-			<SectionLayout sectionName={"testimonialSection"}>
+			}
+			{
+				data?.experience?.testimonials && <SectionLayout sectionName={"testimonialSection"}>
 				<SliderSection
 					sectionTitle="Testimonial"
-					items={testimonials}
+					items={data?.experience?.testimonials}
 				/>
 			</SectionLayout>
+			}
 		</div>
 	);
 }

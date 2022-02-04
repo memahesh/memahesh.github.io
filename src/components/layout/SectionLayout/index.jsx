@@ -1,9 +1,10 @@
 import React from 'react';
 import { Row } from "reactstrap";
+import './style.sass';
 
 const SectionLayout = ({children, sectionName}) => {
     return (
-        <Row className="wrapper" id={sectionName}>
+        <Row className="wrapper section" id={sectionName}>
             {children}
         </Row>
     );
