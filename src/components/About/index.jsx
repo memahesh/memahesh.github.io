@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../common.sass';
 import './style.sass';
-import data from '../content.json';
+import data from '../../content.json';
 import PHeading from '../PHeading';
 
 

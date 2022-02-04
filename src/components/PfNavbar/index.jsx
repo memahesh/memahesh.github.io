@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './style.sass';
-import data from "../content.json";
+import data from "../../content.json";
 
 const PfNavbar = (props) => {
 	

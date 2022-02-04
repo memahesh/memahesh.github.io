@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Container } from 'reactstrap';
 import PfNavbar from './components/PfNavbar';
 import About from './components/About';
@@ -6,9 +6,13 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import PfFooter from './components/PfFooter';
 import SectionLayout from './components/layout/SectionLayout';
-
+import data from "./content.json";
 
 const App = () => {
+
+	useEffect(() => {
+		document.title = data.name + " Portfolio";
+	}, []);
 
 	return (
 		<Container className="App themed-container" fluid="md">

@@ -4,7 +4,7 @@ import TextSection from '../TextSection';
 import SliderSection from '../Section/SliderSection';
 import PortfolioSection from '../Section/PortfolioSection';
 import '../common.sass';
-import data from '../content.json';
+import data from '../../content.json';
 import SectionLayout from '../layout/SectionLayout';
 import TimelineSection from '../Section/TimelineSection';
 
