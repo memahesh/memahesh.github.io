@@ -1,9 +1,9 @@
 {
 	"name": "Mahesh Medam",
 	"about" : "<b style='display:inline;'>Mahesh Medam</b> is an Indian Software Developer looking for the next billion-user project!! He develops software that is convenient to use while preserving aesthetics. An ever-consuming passion for building solutions and exploring new things drives him.<br /><br /> He has been working as a full-time software developer since 2020. Even as a student, he took up roles as an intern/freelancer garnering experience in UI/UX, Backend, Machine learning, and Data. He showed the potential to develop novel solutions by performing in various hackathons. In his free time, you can find him playing games, watching anime, and working on passion projects.<br /> <br /> Check out his work below and if you feel you can have a great time building stuff together, contact him <a href='#contactSection' style='text-decoration:none;'>here👇</a>",
-	"profileURL":"https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/profile.png",
+	"profileURL":"https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/profile.png",
 	"resumeURL":"https://drive.google.com/file/d/1chHzWcyUW5wjqwuBPTOHEY6FtnrK0rna/view?usp=sharing",
-	"email":"memahesh219@gmail.com",
+	"email":"maheshmedam.iitkgp@gmail.com",
 	"experience" : {
 		"journey" : [
 			{
@@ -15,7 +15,7 @@
 				"type" : "work",
 				"duration" : "July 2020 - Jan 2021",
 				"url" : "https://olaelectric.com",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/olaelectric.png"
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/olaelectric.png"
 			},
 			{
 				"name" : "Avenoir",
@@ -26,7 +26,7 @@
 				"type" : "work",
 				"duration" : "Mar 2020 - June 2020",
 				"url" : "https://www.avenoir.ai",
-				"imgURL" : "https://github.com/memahesh/myfolio/blob/master/assets/images/avenoir.png?raw=true"
+				"imgURL" : "https://github.com/maheshmedam/myfolio/blob/master/assets/images/avenoir.png?raw=true"
 			},
 			{
 				"name" : "Scaler Academy",
@@ -59,7 +59,7 @@
 				"type" : "work",
 				"duration" : "May 2019 - June 2019",
 				"url" : "https://instoried.com",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png"
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/instoried.png"
 			},
 			{
 				"name" : "Accenture Innovation Challege 2018 [Finalist]",
@@ -68,7 +68,7 @@
 				"links" : {},
 				"type": "competition",
 				"url" : "https://www.accenture.com/us-en/careers/local/accenture-innovation-challenge",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/accenture.PNG"
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/accenture.PNG"
 			},
 			{
 				"name" : "Pyramid SoftSol Pvt. Ltd.",
@@ -79,7 +79,7 @@
 				"type" : "work",
 				"duration" : "May 2018 - June 2018",
 				"url" : "https://pyramidinc.com",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png"
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/pss.png"
 			},
 			{
 				"name" : "ChemicalShoppe Pvt. Ltd.",
@@ -90,7 +90,7 @@
 				"type": "work",
 				"duration" : "May 2017 - June 2017",
 				"url" : "https://chemicalshoppe.com",
-				"imgURL": "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/chemicalshoppe.png"
+				"imgURL": "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/chemicalshoppe.png"
 			},
 			{
 				"name" : "Code.fun.do SHOWCASE 2017, Microsoft [Finalist]",
@@ -102,28 +102,28 @@
 				},
 				"type": "competition",
 				"url" : "https://www.microsoft.com/en-in/about/empowering-educators-academia.aspx",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/microsoft.png"
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/microsoft.png"
 			}
 		],
 		"testimonials" : [
 			{
 				"description" : "I had the good fortune of mentoring Mahesh during his internship at Instoried. The thing I liked most about him was the minimal supervision he needed to accomplish his tasks. That, accompanied by his ability to read, comprehend, and quickly implement research papers proved to be very beneficial during our initial R&D stage for understanding Deep Learning based NLP / NLU algorithms. Finally, he has the initial sparks of an entrepreneurial spirit which proves to be very useful, as I found him to be invested in the business / strategy aspect of our company as well. Wishing him unlimited luck for whatever endeavour he chooses to pursue.",
 				"url" : "https://www.linkedin.com/in/sutanshuraj/",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/instoried.png",
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/instoried.png",
 				"person": "Sutanshu Raj",
 				"designation": "Cofounder & CTO, Instoried"
 			},
 			{
 				"description" : "Mahesh demonstrated excellent ML/AI capabilities in building chatbot framework and SSD models in minimal time. He will be a recommended for any ML projects and Job opportunities.",
 				"url" : "https://www.linkedin.com/in/suryanersu/",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/pss.png",
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/pss.png",
 				"person": "Surya Pavan Nersu",
 				"designation": "Data Scientist, Infoshare Systems Inc.,"
 			},
 			{
 				"description" : "Mahesh demonstrated excellent skills in Node.Js and React.Js while building a web based dashboard within minimal time. He is recommended for any full stack development projects and Job opportunities.",
 				"url" : "https://www.linkedin.com/in/amlendu-bajpai-02924610a/",
-				"imgURL" : "https://raw.githubusercontent.com/memahesh/myfolio/master/assets/images/avenoir.png",
+				"imgURL" : "https://raw.githubusercontent.com/maheshmedam/myfolio/master/assets/images/avenoir.png",
 				"person": "Amlendu Bajpai",
 				"designation": "Co-Founder, Avenoir"
 			}
@@ -139,7 +139,7 @@
 		"description" : "Feel free to reach out for collaborations or just a friendly hello 👋",
 		"links": {
 			"linkedin":"https://www.linkedin.com/in/mahesh-medam-086b27102/",
-			"github":"https://github.com/memahesh",
+			"github":"https://github.com/maheshmedam",
 			"facebook":"https://www.facebook.com/profile.php?id=100009391137929"
 		}
 	}

@@ -10,7 +10,7 @@ const PfFooter = (props) => {
 
 	return (
 		<div id={props.id} style={{textAlign: 'right', padding:'40px'}}>
-			Build your own website <a href="https://github.com/memahesh/myfolio" target="_blank"> here </a>.
+			Build your own website <a href="https://github.com/maheshmedam/myfolio" target="_blank"> here </a>.
 			Built using React by <a href="https://www.linkedin.com/in/mahesh-medam-086b27102" target="_blank"> Mahesh Medam </a>
 		</div>
 	);

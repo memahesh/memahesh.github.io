@@ -22,7 +22,7 @@ const PfNavbar = (props) => {
 	return (
 		<div>
 			<Navbar className="container-sm" color="white" light expand="md" fixed="top">
-        <NavbarBrand href="/">
+        <NavbarBrand href="/myfolio">
           {data.name.split(" ").filter(x=>x!=="").map((word, idx) => {
             if(idx%2==0){
               return <span key={idx}>{word[0]}</span>;
