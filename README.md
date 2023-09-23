@@ -2,11 +2,12 @@
 
 Built in generic fashion to be used by anyone. Just update `content.json` and `npm run deploy`
 
-**Find latest stable code in `stable-v2` branch**
-
 - `npm start` - This will spawn a development server with a default port of `1234`.
 - `npm run build` - This will output a production build in the `dist` directory.
-- `npm run deploy` - Deploys the branch on github by pushing production code to branch `gh-pages`
+
+## Deployment
+Run `npm run deploy` to push the `dist/` to `gh-pages` branch which deploys to [Portfolio](https://maheshmedam.github.io/myfolio)
+
 
 ## Custom port
 
