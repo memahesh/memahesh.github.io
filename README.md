@@ -29,14 +29,13 @@ parcel index.html -p 3000
 ## Todos
 
  - [ ] Add Projects Section
- - [x] Change Image Styling ###Done
- - [x] Adding Timeline as Journey ###Done
- - [x] Fixing Footer URLs ###Done
- - [x] Fixing Contact spacing ###Done
- - [x] Fixing Testimonial ###Done
- - [ ] Adding Blog button and point to medium ###To Be Done Later
- - [ ] Add more testimonials
+ - [x] Change Image Styling 
+ - [x] Adding Timeline as Journey
+ - [x] Fixing Footer URLs
+ - [x] Fixing Contact spacing
+ - [x] Fixing Testimonials
+ - [ ] Adding Blog button and point to medium
  - [ ] Add Loader
- - [ ] Update README properly
+ - [ ] Create a template repository for anyone to use
  - [ ] Enabling Media Queries and adjust all elements accordingly
  - [ ] Adding Optional Sections
